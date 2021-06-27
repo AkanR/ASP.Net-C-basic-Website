@@ -1,0 +1,4 @@
+c:\users\akansha rai\documents\visual studio 2010\Projects\Practical4_master_page\Practical4_master_page\bin\Practical4_master_page.dll
+c:\users\akansha rai\documents\visual studio 2010\Projects\Practical4_master_page\Practical4_master_page\bin\Practical4_master_page.pdb
+c:\users\akansha rai\documents\visual studio 2010\Projects\Practical4_master_page\Practical4_master_page\obj\Debug\Practical4_master_page.dll
+c:\users\akansha rai\documents\visual studio 2010\Projects\Practical4_master_page\Practical4_master_page\obj\Debug\Practical4_master_page.pdb

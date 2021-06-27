@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Practical4_master_page.SiteMaster" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Practical 4</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="Styles/Site.css" rel="stylesheet"/>
+    <link href="Styles/StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header id="header"> 
+    <center><nav id="nav">  
+    <ul>  
+        <li><a href="Home.aspx">Home</a></li>  
+        <li><a href="About.aspx">About</a></li>  
+        <li><a href="Register.aspx">Register</a></li>   
+    </ul>  
+</nav> </center>  
+</header>
+    <form id="form1" runat="server">
+    <div id="con">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+<footer id="footer">  
+    Coded By Akansha Rai 49 FYMCA Morning Shift 
+</footer>
+</body> 
+</html> 
